@@ -1,2 +1,2 @@
-print(type(1000));
-print(type(1000.0));
+a = 5;
+a,b = 8, 10;
