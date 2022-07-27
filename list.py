@@ -1,4 +1,2 @@
-liste = [2,3,5,6]
-print(liste)
-liste.extend([7, 8, 9])
-print(liste)
+liste = "Je suis TESSI Hardson, je suis developpeur de formation et j'aime ce que je fais"
+print(liste.split(' '))
