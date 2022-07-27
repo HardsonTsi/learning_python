@@ -1,3 +1,2 @@
-a = input('Entrez une valeur: ');
-print(a);
-
+a, b = "1", "5";
+print(int(a) + int(b) + 6)
