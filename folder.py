@@ -1,7 +1,3 @@
-from pprint import pprint
+import random;
 
-import os
-print(dir(os))
-help(os.makedirs)
-
-pprint(dir(os))
+print(callable(random))
