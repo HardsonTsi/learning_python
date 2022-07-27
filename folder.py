@@ -3,11 +3,10 @@ import os
 chemin = './'
 dossier = os.path.join(chemin, 'dossier');
 if not os.path.exists(dossier):
-    os.makedirs(dossier)
-    print('Dossier créé')
+    print('Dossier introuvable')
 else:
     print('Dossier existant');
-    response = int(input('Voulez-vous remplacer le dossier existant ?'))
+    response = int(input('Voulez-vous supprimer le dossier ?: '))
     if response == 1:
-            os.makedirs(dossier, exist_ok=True)
-            print('Dossier remplacé')
+            os.removedirs(dossier);
+            print('Dossier supprimé')
