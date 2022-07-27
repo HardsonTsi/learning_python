@@ -1,7 +1,7 @@
-# -5 to 256
-
-c = 10
-d = 10;
-print(id(c))
-print(id(d))
-print(c is d)
+a = 5
+if (a >= 10):
+    print("Vrai")
+elif (a <= 10):
+    print('A moitié')    
+else:
+    print('Grave')    
