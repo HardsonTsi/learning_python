@@ -1,3 +1,3 @@
-nom = input('Votre nom: ');
-prenom = input('Votre prenom: ');
-f"print Nom: {nom} et Prenom: {prenom}"
+a = [1, 2, 3]
+b = 6
+print(a is b)
