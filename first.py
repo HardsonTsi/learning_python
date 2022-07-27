@@ -1,2 +1,3 @@
-a, b = "1", "5";
-print(int(a) + int(b) + 6)
+nom = input('Votre nom: ');
+prenom = input('Votre prenom: ');
+f"print Nom: {nom} et Prenom: {prenom}"
