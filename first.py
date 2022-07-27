@@ -1,7 +1,5 @@
-a = 5
-if (a >= 10):
-    print("Vrai")
-elif (a <= 10):
-    print('A moitié')    
-else:
-    print('Grave')    
+import random
+
+for i in range(10):
+    r = random.randint(0,1);
+    print(r)
