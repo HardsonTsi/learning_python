@@ -1,4 +1,3 @@
-a = 5;
-a,b = 8, 10;
+a = input('Entrez une valeur: ');
+print(a);
 
-a = b = c = 5;
